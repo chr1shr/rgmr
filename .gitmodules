@@ -1,0 +1,9 @@
+[submodule "sb"]
+	path = sb
+	url = git@github.com:chr1shr/sb.git
+[submodule "utils-gp"]
+	path = utils-gp
+	url = git@github.com:chr1shr/utils-gp
+[submodule "tgmg"]
+	path = tgmg
+	url = git@github.com:chr1shr/tgmg
