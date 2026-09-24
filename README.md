@@ -1,6 +1,6 @@
 # Rycroft Group meta repository
 This Git repository contains code developed by the Rycroft Group at the
-University of Wisconsin–Madison. The bulk of the code is provided within
+University of Wisconsin&#8211;Madison. The bulk of the code is provided within
 submodules.
 
 # Setting up a common configuration files
@@ -13,16 +13,16 @@ familiar with the Linux/Mac/WSL
 To compile the code it is necessary to create a common configuration file
 called **config.mk** in the parent directory, which can be used by all
 subdirectories. Several templates are provided in the **config** directory. To
-use, copy one of the templates into the parent directory. From the tgmr
+use, copy one of the templates into the parent directory. From the rgmr
 directory, on a Linux computer, type
 ```Shell
-cp config/config.mk.linux ../config.mk
+cp config/config.mk.linux config.mk
 ```
-On a Mac using GCC 14 installed via [MacPorts](http://www.macports.org), type
+On a Mac using GCC 15 installed via [MacPorts](http://www.macports.org), type
 ```Shell
-cp config/config.mk.mac_mp ../config.mk
+cp config/config.mk.mac_mp config.mk
 ```
 On a Mac using GCC installed via [Homebrew](http://brew.sh), type
 ```Shell
-cp config/config.mk.mac_hb ../config.mk
+cp config/config.mk.mac_hb config.mk
 ```
